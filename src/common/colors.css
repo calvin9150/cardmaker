@@ -8,3 +8,6 @@
 @value makerShadow: rgba(217, 217, 217, 1);
 @value makerColorful: linear-gradient(166deg, rgba(237, 193, 211, 1) 0%,rgba(212, 149, 161, 1) 60%, rgba(162, 63, 63, 1) 100%, rgba(127, 188, 242, 1) 100%);
 @value makerWheat: wheat;
+@value makerShadow: 5px 4px 15px 5px rgba(0,0,0,0.78);
+@value makerColorful: linear-gradient(90deg, rgba(210,207,255,0.15) 0%, rgba(140,166,203,1) 51%, rgba(0,212,255,1) 100%);
+@value makerWheat: wheat;
