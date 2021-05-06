@@ -3,7 +3,7 @@ import Login from "./components/login/login";
 
 function App({ authService }) {
   return (
-    <div className="styles.app">
+    <div className={styles.app}>
       <Login authService={authService} />
     </div>
   );
