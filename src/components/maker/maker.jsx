@@ -17,7 +17,7 @@ const Maker = ({ authService }) => {
       message: "hi",
       theme: "light",
       fileName: "GOM",
-      fileURL: "das",
+      fileURL: null,
     },
     {
       id: "2",
