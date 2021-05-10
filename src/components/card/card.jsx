@@ -2,16 +2,7 @@ import React from "react";
 import styles from "./card.module.css";
 const DEFAULT_IMAGE = "/images/default_logo.png";
 const Card = ({ card }) => {
-  const {
-    name,
-    company,
-    title,
-    email,
-    message,
-    theme,
-    fileName,
-    fileURL,
-  } = card;
+  const { name, company, title, email, message, theme, fileURL } = card;
   const url = fileURL || DEFAULT_IMAGE;
   return (
     <li className={`${styles.card} ${getStyles(theme)}`}>
